@@ -28,14 +28,15 @@ public class Exercicio2VETOR {
 			}
 		}
 		
-		
+		System.out.print("\nOs números pares são: ");
 		for(x=0;x<6;x++) {
-			System.out.println("\nOs números pares são: "+par[x]);
+			System.out.print(" [ " + par[x]+" ] ");
 		}
 		System.out.println("\nSomatória dos números pares: "+somaPar);
 		
+		System.out.print("\nOs números ímpares são: ");
 		for(x=0;x<6;x++) {
-			System.out.println("\nOs números ímpares são: "+impar[x]);
+			System.out.print(" [ "+impar[x]+" ] ");
 		}
 		System.out.println("\nQuantidade de números ímpares: "+contImpar);
 	}
